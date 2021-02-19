@@ -14,7 +14,7 @@ class Node:
 
 class Graph:
   def __init__(self, start, end):
-    self.start = start;
+    self.start = start
     self.end = end
     self.counter = 0
 
