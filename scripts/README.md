@@ -2,6 +2,10 @@
 
 This is a list of all the algorithms included in this project!
 
+## Approximate Pi
+
+Pi is used to describe the relationship between the area of a circle and its area. Using the `random.random()` function, we can plot points and calculate their distance from the origin, allowing us to approximate pi using the formula `A = pi * r ^ 2`!
+
 ## Fibonacci
 
 The Fibonacci sequence is a famous pattern in mathematics. You start with 1 and 1, and then get the next number by adding the previous two together. For instance, the first few terms are:
