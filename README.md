@@ -1,8 +1,8 @@
 # AlgoMaths
 
-<img align="left" title="MIT License" alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg" />
-
 AlgoMaths is a collection of neat math algorithms!
+<br />
+<img align="left" title="MIT License" alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg" />
 
 - **Creative:** AlgoMaths uses unique solutions simplify otherwise difficult concepts!
 - **Useful:** The algorithms shown are all picked from contests such as Math Olympiad or MATHCOUNTS!
