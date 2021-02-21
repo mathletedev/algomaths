@@ -1,27 +1,25 @@
-# graph-paths
+# AlgoMaths
 
-A simple algorithm to find the total number of paths, given a starting / ending point and a graph.
+<img align="left" title="MIT License" alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg" />
 
-## Node:
+AlgoMaths is a collection of neat math algorithms!
 
-The `Node` class contains its name and a list of all the nodes it is connected to. By creating many nodes and using `node.add_connection()`, we can create a graph of linked nodes.
+- **Creative:** AlgoMaths uses unique solutions simplify otherwise difficult concepts!
+- **Useful:** The algorithms shown are all picked from contests such as Math Olympiad or MATHCOUNTS!
+- **Fun:** Lastly, have fun with this project! You may implement it in yours as well!
 
-## Graph:
+## Usage
 
-The `Graph` class stores a starting and an ending point. This helps us keep track of the state of the graph, and also organizes our code.
+To run one of the algorithms, open up a terminal in the editor of your choice. Use the `cd` command to navigate to the directory you choose, then type `py main.py` to run the script. If this does not work, follow these steps:
 
-## Recursion:
+- Check that you have installed the necessary files (not just main.py) onto your machine.
+- Make sure that you have installed a python compiler.
+- See if you are in the correct directory. Type `ls` or `dir`, and if you see the main.py file, you should be good to go!
 
-This algorithm uses `recursion`. Recursion is basically calling a **function within itself**. It allows use the **same code** over and over again, but with different inputs.
+## Contributing
 
-## Explanation:
+This project currently does not have any contributing guidelines or examples.
 
-We start with the starting node. By using a `for loop`, we can get all the connections it has. Then, for each of the nodes, we check two things:
+## License
 
-Is the connection the **ending node**? If so, that means we've reached the end of the path. Thus, we will add 1 to the counter, as we have found a valid path.
-
-Have we already passed through that node? If we have, then we are **tracing back on a path we have already taken**, so we continue without checking that path.
-
-If _none_ of those occur, then that means we haven't reached the end of the path yet. We then call the same function, but this time with the **connection** node. This means we will go _one layer deeper_ into the tree of paths, and we _repeat the same process again_.
-Once we are done with that, we return the number of **valid paths** we have found, in order to add it to the total.
-That's it! We're done!
+AlgoMaths is [MIT licensed](./LICENSE).

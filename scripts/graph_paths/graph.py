@@ -1,17 +1,3 @@
-class Node:
-  def __init__(self, name):
-    self.connections = []
-    self.name = name
-  
-  def add_connection(self, node):
-    self.connections.append(node);
-
-  def get_name(self):
-    return self.name
-
-  def get_connections(self):
-    return self.connections
-
 class Graph:
   def __init__(self, start, end):
     self.start = start
@@ -36,6 +22,6 @@ class Graph:
   def get_all_paths(self):
     return self.get_paths(self.start, [self.start])
 
-def connect_nodes(node1, node2):
-  node1.add_connection(node2)
-  node2.add_connection(node1)
+  def connect_nodes(self, node1, node2):
+    node1.add_connection(node2)
+    node2.add_connection(node1)
