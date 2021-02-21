@@ -1,4 +1,4 @@
-# AlgoMaths • <img align="left" title="MIT License" alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg" />
+# AlgoMaths
 
 AlgoMaths is a collection of neat math algorithms!
 
